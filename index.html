@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UpCode</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Bootstrap -->
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/bootstrap-theme.min.css" rel="stylesheet">
+    <!--<script src="bootstrap/bootstrap.min.js"></script>-->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styled-box.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar-collapse-wrknd.css">
+    <link rel="stylesheet" href="css/multilevel-dropdown-menu.css">
+</head>
+
+<!--Top menu-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header col-md-2">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsiveMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="image/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="responsiveMenu">
+                <div class="col-md-3"></div>
+                <div class="col-md-5" id=customNavbar>
+                    <ul id="mainNav" class="nav navbar-nav">
+                        <li><a href="#home">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" ref="#products">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu custom-menu" role="menu">
+                                <li><a href="#">Name Surname</a>
+                                </li>
+                                <li><a href="#">Nelson Noa Chris</a>
+                                </li>
+                                <li class="dropdown-submenu"><a href="#">Name Surname</a>
+                                    <ul class="dropdown-menu custom-menu">
+                                        <li><a href="#">Name Surname</a>
+                                        </li>
+                                        <li><a href="#">Nelson Noa Chris</a>
+                                        </li>
+                                        <li><a href="#">Name Surname</a>
+                                        </li>
+                                        <li><a href="#">Nelson Noa</a>
+                                        </li>
+                                        <li><a href="#">Nelson Noa Chris</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Nelson Noa</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#about">About</a>
+                        </li>
+                        <li><a href="#contacts">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <form>
+                    <div class="input-group col-md-2" id="search">
+                        <input type="text" class="form-control" placeholder="">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!--Creative design slider-->
+<section id="home" class="container-fluid">
+    <div class="row">
+        <div id="generic-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#generic-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#generic-carousel" data-slide-to="1"></li>
+                <li data-target="#generic-carousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="image/banner.png" alt="">
+                    <div class="carousel-caption">
+                        <h3>CREATIVE <mark>DESIGN AGENCY</mark></h3>
+                        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/banner.png" alt="">
+                    <div class="carousel-caption">
+                        <h3>CREATIVE <mark>DESIGN AGENCY</mark></h3>
+                        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/banner.png" alt="">
+                    <div class="carousel-caption">
+                        <h3>CREATIVE <mark>DESIGN AGENCY</mark></h3>
+                        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#generic-carousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left custom-control-icon"></span>
+            </a>
+            <a class="right carousel-control" href="#generic-carousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right custom-control-icon"></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="whyus" class="container-fluid">
+    <div class="row">
+        <h2 class="text-center contact contact_article1">WHY <span class="touch">CHOOSE US</span></h2>
+        <p class="text-center article1">Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. Nullam at scelerisque tellus mattis volutpat rhoncus,</p>
+    </div>
+    <div class="row icon">
+
+        <div class="container icon_item">
+            <div class="row text-center">
+                <img src="image/img1.png" alt="heart">
+            </div>
+            <div class="row text-center icon_item_header">YOUR TITLE</div>
+            <div class="row text-center icon_item_descr">Duis bibendum diam non erat facilaisis en ter tincidunt. Duis</div>
+            <div class="row icon_item_hover">
+                <p>SEE MORE</p>
+                <div class="row icon_item_hover_icon">
+                    <a href="#">
+                        <span class="fa-stack" style="background-color:#503392; color:white;">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-link fa-stack-1x" ></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-stack" style="color:white;">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-search-plus fa-stack-1x" style="color:#503392;"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container icon_item">
+            <div class="row text-center">
+                <img src="image/img2.png" alt="phrase">
+            </div>
+            <div class="row text-center icon_item_header">YOUR TITLE</div>
+            <div class="row text-center icon_item_descr">Duis bibendum diam non erat facilaisis en ter tincidunt. Duis</div>
+            <div class="row icon_item_hover">
+                <p>SEE MORE</p>
+                <div class="row icon_item_hover_icon">
+                    <a href="#">
+                        <span class="fa-stack" style="background-color:#503392; color:white;">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-link fa-stack-1x" ></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-stack" style="color:white;">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-search-plus fa-stack-1x" style="color:#503392;"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container icon_item">
+            <div class="row text-center">
+                <img src="image/img3.png" class="pc" alt="pc">
+            </div>
+            <div class="row text-center icon_item_header">YOUR TITLE</div>
+            <div class="row text-center icon_item_descr">Duis bibendum diam non erat facilaisis en ter tincidunt. Duis</div>
+            <div class="row icon_item_hover">
+                <p>SEE MORE</p>
+                <div class="row icon_item_hover_icon">
+                    <a href="#">
+                        <span class="fa-stack" style="background-color:#503392; color:white;">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-link fa-stack-1x" ></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-stack" style="color:white;">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-search-plus fa-stack-1x" style="color:#503392;"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container icon_item">
+            <div class="row text-center">
+                <img src="image/img4.png" alt="star">
+            </div>
+            <div class="row text-center icon_item_header">YOUR TITLE</div>
+            <div class="row text-center icon_item_descr">Duis bibendum diam non erat facilaisis en ter tincidunt. Duis</div>
+            <div class="row icon_item_hover">
+                <p>SEE MORE</p>
+                <div class="row icon_item_hover_icon">
+                    <a href="#">
+                        <span class="fa-stack" style="background-color:#503392; color:white;">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-link fa-stack-1x" ></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-stack" style="color:white;">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-search-plus fa-stack-1x" style="color:#503392;"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container icon_item">
+            <div class="row text-center">
+                <img src="image/img5.png" alt="phlag">
+            </div>
+            <div class="row text-center icon_item_header">YOUR TITLE</div>
+            <div class="row text-center icon_item_descr">Duis bibendum diam non erat facilaisis en ter tincidunt. Duis</div>
+            <div class="row icon_item_hover">
+                <p>SEE MORE</p>
+                <div class="row icon_item_hover_icon">
+                    <a href="#">
+                        <span class="fa-stack" style="background-color:#503392; color:white;">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fa fa-link fa-stack-1x" ></i>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-stack" style="color:white;">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-search-plus fa-stack-1x" style="color:#503392;"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--      slider start-->
+<div id="products"></div>
+<section class="container-fluid products">
+    <div class="row productsTitleBg">
+        <img src="image/productstitle.png" alt="" class="img-responsive"/>
+        <h2 class="text-center product_header productsTitleText">
+            OUR <span class="product_header_span">PRODUCTS</span>
+        </h2>
+    </div>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="container products_icon">
+                        <div class="row">
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr1.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr2.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr3.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr4.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr5.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr6.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container products_icon">
+                        <div class="row">
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr1.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr2.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr3.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr4.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr5.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr6.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container products_icon">
+                        <div class="row">
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr1.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr2.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr3.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr4.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr5.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 products_icon_item">
+                                <div>
+                                    <img src="image/pr6.png" alt="">
+                                </div>
+                                <div class="products_icon_item_descript">
+                                    <h3 class="title">TITLE</h3>
+                                    <h6 class="best">Best Product</h6>
+                                    <p class="duis">Duis bibendum diam non erat facilaisis en ter</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--      slider-end-->
+
+<div id="about" class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+                <h2 class="contact" id="about_us"><span class="touch">ABOUT</span> US</h2>
+            </div>
+            <div class="row description">
+                <p>Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euism Nullam at scelerisque tellus mattis volutpat rhoncus,</p>
+            </div>
+            <div class="row article">
+                <p>Nullam at scelerisque tellus. Nulla feugiat iaculis ante, non tincidunt ligula scelerisque a. Vestibulum accumsan tincidunt odio vel finibus. Phasellus vestibulum lobortis ligula ut volutpat. Maecenas vitae nibh vel purus mollis semper. Nullam tempus feugiat mi id semper. Pellentesque ac posuere augue, vitae mollis enim. Etiam et ullamcorper dolor, a hendrerit quam.</p>
+            </div>
+            <div class="row">
+
+                <div class="container skill_animate">
+                    <div class="row skill_row">
+                        <div class="skill">PHOTOSHOP</div>
+                        <div class="skill">79%</div>
+                    </div>
+                    <div class="row">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary">
+                                <span class="sr-only">79%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row skill_row">
+                        <div class="skill">HTML/CSS</div>
+                        <div class="skill">90%</div>
+                    </div>
+                    <div class="row">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary">
+                                <span class="sr-only">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row skill_row">
+                        <div class="skill">JAVASCRIPT</div>
+                        <div class="skill">69%</div>
+                    </div>
+                    <div class="row">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary">
+                                <span class="sr-only">69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row skill_row">
+                        <div class="skill">WORDPRESS</div>
+                        <div class="skill">92%</div>
+                    </div>
+                    <div class="row">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary">
+                                <span class="sr-only">92%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-4">
+            <img src="image/ipad.png" class="Ipad" alt="Ipad">
+        </div>
+    </div>
+
+</div>
+<section id="contacts" class="container-fluid">
+    <div class="row">
+        <div class="container">
+            <h2 class="text-center contact">GET IN <span class="touch">TOUCH</span></h2>
+            <p class="text-center contact_description">Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. Nullam at scelerisque tellus mattis volutpat rhoncus,</p>
+        </div>
+    </div>
+    <!--<div class="container-fluid">-->
+        <div class="row">
+            <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5946.722646862485!2d24.02554342383379!3d49.832067573991566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sua!4v1499521928514" width="1634" height="600" frameborder="0" style="border:0" allowfullscreen>
+                </iframe>
+                <div class="maps">
+                    <div class="container maps_bg">
+                        <div class="col-md-1"></div>
+                        <!--                        <div class="col-md-1 maps_form"></div>-->
+                        <div class="col-md-6 maps_form_bg">
+                            <form role="form" id="contact">
+                                <div class="form-inline form-inline_input">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="inputName">Full Name</label>
+                                        <input type="text" class="form-control input-lg" id="inputName" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="email" class="form-control input-lg" id="inputEmail" placeholder="Email Adress" aria-label="..." required>
+                                            <div class="input-group-btn">
+                                                <button type="button" class="btn dropdown-toggle btn-lg button-tooltip" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                                                    <li>somename@mail.com</li>
+                                                    <li>name@mail.com</li>
+                                                    <li class="hint_blue">yourname@mail.com</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="6" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="form-inline ">
+                                    <div class="form-group pull-left">
+                                        <div class="checkbox checkbox-primary ">
+                                            <input type="checkbox" id="myCheckbox">
+                                            <label for="myCheckbox" class="form_checkbox">I like your company</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group pull-right form_button">
+                                        <label class="">
+                                            <button type="submit" class="btn form_send">Send</button>
+                                        </label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!--                        <div class="col-md-1 maps_form"></div>-->
+
+                        <div class="col-md-3 maps_form_bg maps_form_address">
+                            <div class="row">
+                                <p class="address">69/A, Some Street Name Your City, code 01234 Country Name</p>
+                            </div>
+                            <div class="row">
+                                <p class="address">
+                                    +880 123 456 78 98
+                                    <br>+860 987 648 74 95
+
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p class="address">company@mail.com sales@mail.com
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-1 maps_form_bg"></div>
+                        <div class="col-md-1"></div>
+                    </div>
+                    <div class="col-md-1 maps_form"></div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </div>
+    <!--</div>-->
+</section>
+
+<footer class="footer-bottom">
+    <div class="container-fluid">
+        <div class="row" id="footer">
+            <span class="pull-left" id="footer_copy">Copyright 	&copy; Company. All Rights Reserved 2016</span>
+            <!--    <i class="fa fa-facebook fa-lg" aria-hidden="true" ></i>-->
+            <div class="pull-right" id="social">
+                <div class="social"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                </div>
+                <div class="social">
+                    <img src="image/g-plus.svg" alt="google+" style="width:21px;height:17px;">
+                </div>
+                <div class="social"><i class="fa fa-twitter  fa-lg" aria-hidden="true"></i>
+                </div>
+                <!--    <i class="fa fa-dribbble fa-3x " aria-hidden="true"></i>-->
+                <div class="social">
+                    <img src="image/dribbble.svg" alt="dribble" style="width:20px;height:20px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
