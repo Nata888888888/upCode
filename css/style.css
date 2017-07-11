@@ -528,3 +528,9 @@
 #myCarousel .carousel-indicators .active{
     background-color: #503392;
 }
+@media only screen and (max-width: 600px) {
+    .icon{
+        flex-direction: column;
+    }
+ 
+}
